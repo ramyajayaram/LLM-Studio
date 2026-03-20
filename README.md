@@ -30,5 +30,4 @@ A character-level Transformer model implemented in **TensorFlow.js** that trains
 3. **Train:** Paste some text (e.g., Shakespeare) into the training data area and click "Train Toy GPT Model".
 4. **Generate:** Once training is complete, click "Generate Text" to see the model's predictions.
 
----
-Built with ❤️ using AI Studio Build.
+
