@@ -1,20 +1,34 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# LLM Studio
 
-# Run and deploy your AI Studio app
+LLM Studio is a comprehensive development environment for exploring and building Large Language Models. It combines the power of Google's state-of-the-art Gemini models with a hands-on playground for building custom Transformer architectures from scratch.
 
-This contains everything you need to run your app locally.
+## Features
 
-View your app in AI Studio: https://ai.studio/apps/e6f39f95-b928-46e2-95f4-f0759b7e6e44
+### 1. Gemini Chat Pro
+A high-performance, modern chat interface powered by **Gemini 3.1 Flash**.
+- **Real-time Streaming:** Instant responses as they are generated.
+- **Markdown Support:** Rich text rendering for code, lists, and more.
+- **Polished UI:** A clean, professional design with smooth animations.
 
-## Run Locally
+### 2. Model Playground (Toy GPT)
+A character-level Transformer model implemented in **TensorFlow.js** that trains directly in your browser.
+- **Custom Architecture:** Features Token Embedding, Positional Encoding, Self-Attention, and Feed-Forward layers.
+- **Live Training:** Train the model on any text input and watch the loss decrease in real-time.
+- **Inference:** Generate new text based on the patterns learned during training.
 
-**Prerequisites:**  Node.js
+## Tech Stack
 
+- **Frontend:** React 19, Tailwind CSS 4, Motion
+- **AI Models:** Gemini 3.1 Flash (via `@google/genai`)
+- **Machine Learning:** TensorFlow.js (`@tensorflow/tfjs`)
+- **Icons:** Lucide React
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Getting Started
+
+1. **Chat:** Use the "Chat" tab to interact with Gemini. Ensure your `GEMINI_API_KEY` is configured in the AI Studio secrets.
+2. **Playground:** Switch to the "Model Playground" tab.
+3. **Train:** Paste some text (e.g., Shakespeare) into the training data area and click "Train Toy GPT Model".
+4. **Generate:** Once training is complete, click "Generate Text" to see the model's predictions.
+
+---
+Built with ❤️ using AI Studio Build.
