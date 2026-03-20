@@ -1,0 +1,5 @@
+{
+  "name": "LLM Studio",
+  "description": "A comprehensive LLM development environment featuring a Gemini-powered chat and a custom Transformer model playground built from scratch.",
+  "requestFramePermissions": []
+}
